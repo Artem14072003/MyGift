@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -23,23 +23,30 @@
         />
     </div>
 </header>
+<main class="main-content">
+    <section class="congratulation">
+        <div class="container">
+            <h1 class="congratulation__title">Вам открытка!</h1>
+            <p class="congratulation__description">Нажмите на нее, чтобы узнать от кого она и прочитать поздравление</p>
 
-<section class="congratulation">
-    <h1 class="title">Вам открытка!</h1>
-    <p class="description">Нажмите на нее, чтобы узнать от кого она и прочитать поздравление</p>
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <img src="../../img/cards/cards_1.jpg" alt="Открытка">
-            </div>
-            <div class="swiper-slide">
-                <h2 class="block__tittle">Поздравление!</h2>
-                <p><span class="gray">От кого</span> Тёма</p>
-                <p><span class="gray">Для кого</span> Муськи</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem dignissimos eum, excepturi ipsam labore maxime minima odit optio porro, possimus praesentium quos repellat, repellendus sint soluta tempore tenetur veniam.</p>
+            <div class="congratulation__card card">
+                <div class="card__inner">
+                    <div class="card__font"><img src="../../img/cards/cards_1.jpg" alt="Открытка" class="card__img">
+                    </div>
+                    <div class="card__back">
+                        <h2 class="card__title">Поздравление!</h2>
+                        <div class="card__contacts">
+                            <p class="card_detail"><span class="card__subtitle">От кого</span><span
+                                    class="card__from">Тёма</span></p>
+                            <p class="card_detail"><span class="card__subtitle">Для кого</span><span
+                                    class="card__from">Муськи</span></p>
+                        </div>
+                        <p class="card__massage">Я тебя бооооси юьюююююююю!</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</main>
 </body>
 </html>
